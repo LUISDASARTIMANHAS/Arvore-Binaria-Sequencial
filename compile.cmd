@@ -39,7 +39,7 @@ g++ -Wall -g3 -Wextra -static -static-libgcc -static-libstdc++ %fileName%.c -o "
 
 g++ -Wall -g3 -Wextra -static -static-libgcc -static-libstdc++ %fileName%.c -o "builds/%fullFileName%.exe"
 
-tar -a -c -f "zip/%fullFileName%.zip" *data *builds *rascunho *.h *.c *.c functions.c *.cmd
+tar -a -c -f "zip/%fullFileName%.zip" *data *builds *rascunho *.pdf *.h *.c *.c functions.c *.cmd
 
 msg * /v /w %fullFileName%.exe foi compilado!
 
